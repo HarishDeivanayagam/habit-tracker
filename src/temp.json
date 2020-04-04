@@ -1,0 +1,66 @@
+[{"name":"Routine1","from":"11AM","to":"12AM"}]
+
+[{"name":"Habit1","description":"My Habit1"},{"name":"fsd","description":"dfs"},{"name":"ads","description":"sadf"}]
+
+{
+    "Habit1" : {
+        "2-4-2020" : {
+            "done" : "true",
+            "xp"   : "5"
+        }
+    }
+}
+
+{
+    "1-4-2020": [
+        {
+            "name": "Todo1",
+            "description": "My Todo1",
+            "done": "true"
+        },
+        {
+            "name": "Todo2",
+            "description": "My Todo2",
+            "done": "false"
+        },
+        {
+            "name": "Todo3",
+            "description": "My Todo3",
+            "done": "true"
+        }
+    ],
+    "2-4-2020": [
+        {
+            "name": "Todo1",
+            "description": "My Todo1",
+            "done": "true"
+        },
+        {
+            "name": "Todo2",
+            "description": "My Todo2",
+            "done": "false"
+        },
+        {
+            "name": "Todo3",
+            "description": "My Todo3",
+            "done": "true"
+        }
+    ],
+    "3-4-2020": [
+        {
+            "name": "Todo1",
+            "description": "My Todo1",
+            "done": "true"
+        },
+        {
+            "name": "Todo2",
+            "description": "My Todo2",
+            "done": "false"
+        },
+        {
+            "name": "Todo3",
+            "description": "My Todo3",
+            "done": "true"
+        }
+    ]
+}

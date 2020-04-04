@@ -1,0 +1,55 @@
+.ModalOpen{
+    display: inherit;
+}
+
+.ModalClosed{
+    display: none;
+}
+
+.HomeViews{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#HomeView{
+    margin-top:3em;
+    margin-bottom: 3em;
+    margin-left: 7em;
+}
+
+@media(max-width:1850px) {
+    #HomeView{
+        margin-top:3em;
+        margin-bottom: 3em;
+        margin-left: 5em;
+    }
+}
+
+@media(max-width:1700px) {
+    #HomeView{
+        margin-top:3em;
+        margin-bottom: 3em;
+        margin-left: 3em;
+    }
+}
+
+.Home {
+    height: 100vh;
+}
+
+.HomeContainer {
+    padding: 3em;
+}
+
+.ToggleClosed {
+    display: none;
+}
+
+.ToggleOpen {
+    display: inherit;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+}

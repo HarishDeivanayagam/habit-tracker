@@ -1,0 +1,370 @@
+.MediumModalBox{
+    position: fixed;
+    z-index: 1;
+    margin-left: 35%;
+    margin-right: 33%;
+    margin-top : 8%;
+    width: 35em;
+    height: 12em;
+    overflow: auto;
+    background-color:white;
+    padding:2em;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px grey;
+}
+
+.LargeModalBox{
+    position: fixed;
+    z-index: 1;
+    margin-left: 23%;
+    margin-right: 25%;
+    margin-top : 1%;
+    width: 60em;
+    height: 40em;
+    padding:2em;
+    overflow: auto;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: 0px 1px 2px grey;
+}
+
+.LargeModalBox input {
+    width: 100%;
+    padding : 10px 5px;
+    margin-top : .5em;
+    border-radius: 5px;
+    border: none; 
+    border-style: solid;
+    border-color: #8700C9;
+    border-width: .04em;
+}
+
+.MediumModalBox input {
+    width: 100%;
+    padding : 10px 5px;
+    margin-top : .5em;
+    border-radius: 5px;
+    border: none; 
+    border-style: solid;
+    border-color: #8700C9;
+    border-width: .04em;
+}
+
+.MediumModalBox button {
+    all : unset;
+    background-color: #8700C9;
+    color:white;
+    margin-top : .5em;
+    width: 100%;
+    text-align: center;
+    padding-right: .8em;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#CloseBtn{
+    background-color: red;
+    width: 15%;
+    padding-top : 2px;
+    padding-bottom: 2px;
+
+}
+
+.LargeModalBox button {
+    all : unset;
+    background-color: #8700C9;
+    color:white;
+    margin-top : .5em;
+    width: 100%;
+    text-align: center;
+    padding-right: .8em;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.LargeModalBox #timeinput {
+    width: 100%;
+    padding : 10px 5px;
+    margin-top : .5em;
+    border-radius: 5px;
+    border: none; 
+    border-style: solid;
+    border-color: #8700C9;
+    border-width: .04em;
+}
+
+.CalendarTable {
+    margin-left:0em;
+    margin-right:.5em;
+    border-spacing: 7px;
+    overflow:auto;
+    width: 100%;
+    height: 100px;
+}
+
+.CalendarTable th{
+    font-size: 25px;
+    padding-bottom: .3em;
+    color:#8700C9;
+
+}
+
+.CalendarTable td{
+    padding : 2.6em 1em;
+    background: #A6ACEC;
+    border-radius: 5px;
+}
+
+.CalendarTable #selectedDate{
+    border-radius: 100%;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-left: 70px;
+    background: #8700C9;
+    color:white;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.MediumCard{
+    margin-top:.4em;
+    padding:.5em;
+    width: 260px;
+    height: 141px;
+    background: #F8F8F8;
+    border-radius: 5px;
+}
+
+.Container {
+    width: 100%;
+    height: 80vh;
+    background: #ACE7EF;
+    border-radius: 5px;
+    position: relative; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.MediumColumn {
+    width: 292px;
+    height: 99%;
+    background: #ACE7EF;
+    border: 1px solid #CEFFF1;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.LargeColumn {
+    width: 790px;
+    height: 99%;
+    background: #ACE7EF;
+    border: 1px solid #CEFFF1;
+    box-sizing: border-box; 
+    border-radius: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.MediumColumn ul {
+    margin-left: .4em;
+    margin-right: .4em;
+    overflow: auto;
+    height: 570px;
+}
+
+.ToggleOpenBtn{
+    all:unset;
+    border-bottom: solid;
+    border-radius: 5px;
+    border-bottom-width: 9px;
+    border-bottom-color:#8700C9;
+    color:#8700C9;
+    padding: .5em 2em;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ToggleClosedBtn{
+    all:unset;  
+    color:#8700C9;
+    padding: .5em 2em;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.HabitsHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HabitsHeader button{
+    all:unset;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 25px;
+    color: #8700C9;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-right:.8em;
+}
+
+.HabitsHeader h3{
+    font-style: bold;
+    font-weight: 600;
+    font-size: 25px;
+    color: #8700C9;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left:.5em;
+}
+
+.SmallCard{
+    margin-top:.4em;
+    padding:.5em;
+    width: 260px;
+    height: 120px;
+    background: #F8F8F8;
+    border-radius: 5px;
+}
+
+#DoBtn{
+    all : unset;
+    padding : 1px 5px;
+    background : rgb(16, 233, 16);
+    margin-left : 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#UnDoBtn{
+    all : unset;
+    padding : 1px 5px;
+    background : yellow;
+    margin-left : 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#RemoveBtn{
+    all : unset;
+    padding : 1px 5px;
+    background : red;
+    margin-left : 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ongoingtext {
+    color: rgb(78, 206, 78);
+    font-size: 18px;
+}
+
+.ongoingtext .dot {
+    height: 13px;
+    width: 13px;
+    background-color: rgb(78, 206, 78);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right :.25em;
+}
+
+
+.upcomingtext {
+    color: rgb(187, 187, 0);
+    font-size: 18px;
+}
+
+.upcomingtext .dot {
+    height: 13px;
+    width: 13px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right :.25em;
+}
+.gotovertext {
+    color: red;
+    font-size: 18px;
+}
+
+.gotovertext .dot {
+    height: 13px;
+    width: 13px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right :.25em;
+}
+
+.ColumnBtn{
+    all: unset;
+    position: absolute;
+    bottom: 7.5%;
+    text-align: center;
+    padding: 1em 6.7em;
+    background-color: #8700C9;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.RoutineColumnBtn{
+    all: unset;
+    position: absolute;
+    bottom: 7.5%;
+    text-align: center;
+    padding: 1em 4.1em;
+    background-color: #8700C9;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+::-webkit-scrollbar {
+    width: 2px;
+    border-radius: 5px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: rgb(241, 213, 255);
+}
+
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(161, 55, 214);
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8700C9;
+}
+
+#statsbtn{
+    all:unset;
+    text-align: center;
+    margin-left : 5em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#calenderchangebtn{
+    all:unset;
+    background-color: #8700C9;
+    font-size: 1.15em;
+    padding: 0em .2em;
+    margin-right:.25em;
+    color: white;
+}
